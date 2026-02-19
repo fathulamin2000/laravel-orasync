@@ -1,0 +1,29 @@
+{
+    "name": "fathulamin2000/laravel-orasync",
+    "description": "no desc yet",
+    "type": "library",
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^10.0|^11.0|^12.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Fathulamin2000\\LaravelOrasync\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Fathul Amin",
+            "email": "mfathulamin2000@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fathulamin2000\\LaravelOrasync\\LaravelOrasyncServiceProvider"
+            ]
+        }
+    }
+}
