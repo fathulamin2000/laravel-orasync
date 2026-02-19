@@ -23,7 +23,10 @@
         "laravel": {
             "providers": [
                 "Fathulamin2000\\LaravelOrasync\\LaravelOrasyncServiceProvider"
-            ]
+            ],
+            "aliases": {
+                "OraSync": "Fathulamin2000\\LaravelOrasync\\Facades\\OraSync"
+            }
         }
     }
 }
