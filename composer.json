@@ -1,6 +1,6 @@
 {
     "name": "fathulamin2000/laravel-orasync",
-    "description": "no desc yet",
+    "description": "Laravel package for syncing Oracle database data between source and target databases with batch-safe operations.",
     "type": "library",
     "require": {
         "php": "^8.1",
